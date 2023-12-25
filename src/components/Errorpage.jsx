@@ -18,12 +18,12 @@ export default function ErrorPage() {
                 <div className='flex items-center justify-center gap-4 md:gap-6'>
                 <Link to='/'>                
                 <button
-                  className={`my-2 border-2 text-gray-100 bg-blue-600 hover:bg-blue-500 border-gray-100 rounded-[40px] lg:text-sm xl:text-lg py-2.5 md:py-3 px-6 md:px-10 text-center font-semibold  focus:outline-none`}
+                  className={`my-2 border-2 text-gray-100 bg-blue-600 hover:bg-white hover:text-blue-500 border-gray-100 hover:border-blue-500 rounded-[40px] lg:text-sm xl:text-lg py-2.5 md:py-3 px-6 md:px-10 text-center font-semibold  focus:outline-none`}
                 >Go Back
                 </button></Link>
                 <Link to='/'>                
                 <button
-                  className="my-2 border-2 rounded-[40px] lg:text-sm xl:text-lg py-2.5 md:py-3 px-4 md:px-8 text-center  font-semibold text-blue-500 border-blue-500 focus:outline-none"
+                  className="my-2 border-2 rounded-[40px] lg:text-sm xl:text-lg py-2.5 md:py-3 px-4 md:px-8 text-center  font-semibold text-blue-500 border-blue-500 hover:bg-blue-500 hover:text-white focus:outline-none"
                 >Report Problem
                 </button></Link>
                 </div>
